@@ -61,3 +61,5 @@ model = LogisticRegression( class_weight = 'balanced', random_state = 206)
 
 # Fit the model with the training data
 model.fit(X_train, y_train)
+
+# Test
