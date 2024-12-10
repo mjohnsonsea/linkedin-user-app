@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+import streamlit as st
 
 # Read csv
 s = pd.read_csv('social_media_usage.csv')
@@ -62,4 +63,10 @@ model = LogisticRegression( class_weight = 'balanced', random_state = 206)
 # Fit the model with the training data
 model.fit(X_train, y_train)
 
-# Test
+# Streamlit App Header
+st.markdown("# OPAN 6607: Final Project")
+
+st.markdown("### Mike Johnson")
+
+st.markdown("### LinkedIn User Prediction Model")
+
