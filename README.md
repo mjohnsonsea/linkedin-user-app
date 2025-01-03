@@ -2,6 +2,9 @@
 ## OPAN 6607: Programming II
 ### Final Project: LinkedIn User Prediction App
 
+### Link to App
+https://opan6607-cbpwhazrdz74rhctkqotxw.streamlit.app/
+
 #### Project Summary
 Project trains a logistic regression model using social media usage data set that predicts if a person has a LinkedIn account based on their demographics.
 
